@@ -3,7 +3,7 @@ fun main() {
     val mesesDelAno1:Array<String> = arrayOf("Enero", "Febrero", "Marzo")   // Especificando el tipo
     val mesesDelAno2 = arrayOf("Enero", "Febrero", "Marzo")                 // Sin especificar tipo (inferencia de tipos)
     val miMatriz1 = arrayOf(15, 25, 8, -7, 92)                              // Sin especificar tipo (inferencia de tipos)
-    val miMatriz2 = Array(5){0}                                             // Se declara el array de 5 elementos, todos con valor incial 0
+    val miMatriz2 = Array(5){0}                                        // Se declara el array de 5 elementos, todos con valor incial 0
 
     val miArray = Array(5){0}
     miArray[2] = 7
